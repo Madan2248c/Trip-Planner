@@ -16,13 +16,13 @@ search.addEventListener("click", async () => {
     days +
     "&destination=" +
     desti;
-  const options = {
-    method: "GET",
-    headers: {
-      "X-RapidAPI-Key": "42e97a0d9amsh9505107cef5b249p190d74jsnfa8a4bd8d56b",
-      "X-RapidAPI-Host": "ai-trip-planner.p.rapidapi.com",
-    },
-  };
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'a02f41a998msh1f739df04df8a5cp16a821jsn7212939afd75',
+		'X-RapidAPI-Host': 'ai-trip-planner.p.rapidapi.com'
+	}
+};
 
   try {
     console.log("Fetching data...");
