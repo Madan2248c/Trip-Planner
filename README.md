@@ -1,1 +1,2 @@
-# UID-Final-Project
+# Trip planner
+
